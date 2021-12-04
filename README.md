@@ -15,7 +15,7 @@ The data variable __drizzle takes in the type of drizzle, like chocolate drizzle
 Finally the data variable __toppings takes in the type of toppings on the icecream.
 
 The method get_flavor() returns the flavor of the icecream. It takes no arguments except for self. The method get_drizzle() returns the type of drizzle. It only takes self as an argument. The method get_toppings() returns the toppings on the icecream object. It also only takes in self. 
-The method set_drizzle() changes the type of drizzle. This method takes in self and a string to describe the type of drizzle. The method set_toppings() changes the toppings on the icecream. This method also take in self, as well as a string for kind of topping. The method get_ice_cream() returns a string describing the entire icecream order.
+The method set_drizzle() changes the type of drizzle. This method takes in self and a string to describe the type of drizzle. The method set_toppings() changes the toppings on the icecream. This method also take in self, as well as a string for kind of topping. The method get_ice_cream() returns a string describing the entire icecream order. It makes use of all of the private data variables. 
 The method pick_a_number() plays a game where you pick a number and you get a prize according to that number. This method asks the user to input a number and uses if statements to pick a prize. It takes in self and a value as arguments.
 The method sentient_ice_cream() also has the user play a game. It asks the user to ask a question and prints out a response. This method takes in self as an argument and the arguments "question" and 'again', which have default values. 
 
